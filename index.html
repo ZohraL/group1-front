@@ -16,6 +16,8 @@
     const getMyMovies = async () => {
         const responce = await fetch("http://grp1.360medics.com:8080/movies");
         const myJson = await responce.json();  
+
+        console.log("TEST");
     }
 
     console.log(getMyMovies);
